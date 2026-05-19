@@ -1,0 +1,103 @@
+.faq {
+  min-height: 100vh;
+  padding: var(--spacing-2xl) 0;
+}
+
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.faq__item {
+  background-color: var(--theme-background-alt);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow var(--transition-base);
+}
+
+.faq__item:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.faq__question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-lg);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color var(--transition-fast);
+}
+
+.faq__question:hover {
+  background-color: var(--theme-background);
+}
+
+.faq__question--open {
+  background-color: var(--theme-background);
+}
+
+.faq__question-text {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--theme-text-dark);
+  flex: 1;
+  padding-right: var(--spacing-md);
+}
+
+.faq__icon {
+  font-size: var(--font-size-2xl);
+  font-weight: 300;
+  color: var(--theme-primary);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.faq__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-slow), padding var(--transition-slow);
+}
+
+.faq__answer--open {
+  max-height: 500px;
+  padding: 0 var(--spacing-lg) var(--spacing-lg) var(--spacing-lg);
+}
+
+.faq__answer-text {
+  font-size: var(--font-size-base);
+  color: var(--theme-text-medium);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .faq__question {
+    padding: var(--spacing-md);
+  }
+
+  .faq__question-text {
+    font-size: var(--font-size-base);
+  }
+
+  .faq__icon {
+    font-size: var(--font-size-xl);
+  }
+
+  .faq__answer--open {
+    padding: 0 var(--spacing-md) var(--spacing-md) var(--spacing-md);
+  }
+
+  .faq__answer-text {
+    font-size: var(--font-size-sm);
+  }
+}

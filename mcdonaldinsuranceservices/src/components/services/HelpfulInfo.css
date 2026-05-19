@@ -1,0 +1,103 @@
+.helpful-info {
+  min-height: 100vh;
+  padding: var(--spacing-2xl) 0;
+}
+
+.helpful-info__categories {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl);
+}
+
+.helpful-info__category {
+  background-color: var(--theme-background-alt);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.helpful-info__category-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--theme-primary);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 3px solid var(--theme-primary);
+}
+
+.helpful-info__items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.helpful-info__card {
+  background-color: var(--theme-background);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--theme-primary-light);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.helpful-info__card:hover {
+  transform: translateX(5px);
+  box-shadow: var(--shadow-md);
+}
+
+.helpful-info__situation {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--theme-text-dark);
+  margin-bottom: var(--spacing-md);
+}
+
+.helpful-info__details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.helpful-info__organization {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--theme-text-dark);
+  margin: 0;
+}
+
+.helpful-info__phone {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--theme-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  display: inline-block;
+}
+
+.helpful-info__phone:hover {
+  color: var(--theme-primary-dark);
+}
+
+.helpful-info__description {
+  font-size: var(--font-size-sm);
+  color: var(--theme-text-medium);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .helpful-info__category {
+    padding: var(--spacing-lg);
+  }
+
+  .helpful-info__category-title {
+    font-size: var(--font-size-xl);
+  }
+
+  .helpful-info__situation {
+    font-size: var(--font-size-base);
+  }
+
+  .helpful-info__phone {
+    font-size: var(--font-size-lg);
+  }
+}

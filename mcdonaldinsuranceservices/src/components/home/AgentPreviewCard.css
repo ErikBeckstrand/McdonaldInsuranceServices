@@ -1,0 +1,73 @@
+.agent-preview-card {
+  background-color: var(--theme-background-alt);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  cursor: pointer;
+}
+
+.agent-preview-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.agent-preview-card__image-wrapper {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--theme-primary-light) 0%, var(--theme-primary) 100%);
+}
+
+.agent-preview-card__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.agent-preview-card__placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--theme-text-light);
+  user-select: none;
+}
+
+.agent-preview-card__info {
+  padding: var(--spacing-lg);
+  text-align: center;
+}
+
+.agent-preview-card__name {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--theme-text-dark);
+  margin-bottom: var(--spacing-sm);
+}
+
+.agent-preview-card__role {
+  font-size: var(--font-size-sm);
+  color: var(--theme-text-medium);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .agent-preview-card__info {
+    padding: var(--spacing-md);
+  }
+
+  .agent-preview-card__name {
+    font-size: var(--font-size-base);
+  }
+}
