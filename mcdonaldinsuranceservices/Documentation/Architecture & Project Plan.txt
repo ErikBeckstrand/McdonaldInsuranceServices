@@ -1,0 +1,199 @@
+Architecture & Project Plan for a Professional React Site
+
+This plan is structured so an AI agent can follow it step‑by‑step and reliably generate a clean, scalable React codebase.
+1. 🎯 High-Level Goals
+
+    Enforce SOLID principles
+
+    Maintain separation of concerns
+
+    Use small, reusable components
+
+    Keep logic, layout, and styling separate
+
+    Use centralized configuration for company info, theme colors, and shared data
+
+    Ensure consistent folder structure
+
+    Use React best practices (hooks, props, composition, no unnecessary state)
+
+2. 📁 Final Folder Structure (AI must follow)
+Code
+
+src/
+  assets/
+    images/
+      agents/
+      logo/
+  components/
+    common/
+      Button.jsx
+      SectionHeader.jsx
+      PageContainer.jsx
+    layout/
+      NavBar.jsx
+      Footer.jsx
+    home/
+      HomePage.jsx
+      MissionStatement.jsx
+      Statistics.jsx
+      AgentPreviewList.jsx
+      AgentPreviewCard.jsx
+    about/
+      MeetTheTeam.jsx
+      AgentProfileCard.jsx
+    services/
+      Services.jsx
+      FrequentlyAskedQuestions.jsx
+      HelpfulInfo.jsx
+    contact/
+      ContactUs.jsx
+  data/
+    agents.js
+    companyInfo.js
+    faq.js
+    helpfulInfo.js
+    services.js
+  hooks/
+    useScrollToTop.js
+  styles/
+    variables.css
+    global.css
+  App.jsx
+  main.jsx
+  router.jsx
+
+3. 🧩 Component Responsibilities (AI must follow)
+
+Each bullet begins with a Guided Link so you can expand any part later.
+🧱 Layout Components
+
+    NavBar — handles navigation only, no business logic
+
+    Footer — links + company info
+
+🏠 Home Page Components
+
+    MissionStatement — static text
+
+    Statistics — numbers like “30 years”, “thousands helped”
+
+    AgentPreviewList — maps over agents.js
+
+    AgentPreviewCard — small photo + name
+
+👥 Meet the Team Components
+
+    AgentProfileCard — large photo, name, phone, blurb
+
+🛠 Services Components
+
+    Services — long text, structured sections
+
+    FrequentlyAskedQuestions — collapsible Q&A
+
+    HelpfulInfo — list of numbers + explanations
+
+☎ Contact Components
+
+    ContactUs — office number + agent contact list
+
+4. 📚 Data-Driven Design (AI must follow)
+
+All content must be stored in /src/data so components stay clean.
+Example files:
+
+    companyInfo.js — name, slogan, email, phone, theme colors
+
+    agents.js — 5 agents with name, phone, email, photo, blurb
+
+    faq.js — array of Q/A
+
+    helpfulInfo.js — list of numbers + reasons to call
+
+    services.js — text blocks for services offered/not offered
+
+This ensures:
+
+    No hardcoded text inside components
+
+    Easy updates
+
+    Clean separation of concerns
+
+5. 🎨 Styling & Theming Rules
+Global rules:
+
+    Use CSS variables in variables.css:
+
+        --theme-primary: #748348;
+
+        --theme-text-dark: #222;
+
+        --theme-text-light: #fff;
+
+Component styling:
+
+    Each component gets its own .css file
+
+    No inline styles except dynamic values
+
+    Use BEM naming conventions
+
+6. 🧠 React Best Practices the AI Must Follow
+State & Logic
+
+    Only use state where necessary
+
+    No derived state
+
+    Use props for data flow
+
+    Use composition instead of giant components
+
+Rendering
+
+    Break large pages into small components
+
+    Use .map() for lists
+
+    Use keys properly
+
+Routing
+
+    Use a dedicated router.jsx file
+
+    Each page is a route
+
+    NavBar links use <Link>
+
+Reusability
+
+    Shared UI elements go in /components/common
+
+    No duplication of markup
+
+7. 🧭 SOLID Principles Applied to React
+S — Single Responsibility
+
+Each component does exactly one thing.
+O — Open/Closed
+
+Components accept props so they can be extended without modification.
+L — Liskov Substitution
+
+Reusable components (buttons, cards) must work anywhere.
+I — Interface Segregation
+
+Components receive only the props they need.
+D — Dependency Inversion
+
+Pages depend on data files, not hardcoded text.
+8. 🛠 AI Workflow Instructions (Give these to the agent)
+Step 1 — Create folder structure
+Step 2 — Create data files
+Step 3 — Create layout components
+Step 4 — Create common reusable components
+Step 5 — Build each page using small components
+Step 6 — Add routing
+Step 7 — Add global styles + variables

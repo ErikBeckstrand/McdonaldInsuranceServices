@@ -1,0 +1,44 @@
+McDonald Insurance Services
+
+Info:
+Company Name: McDonald Insurance Services
+Slogan: Paying attention to your needs
+Main email: jmcdonald@mcdinserv.com
+Office Number: 801-576-6412
+Theme Color: #748348
+Red: 116
+Green: 131
+Blue: 72
+
+Site and page layout.
+Nav bar:
+Far Left: logo (clicking it will return the user to the home page)   Far Right: Services (drop down: Services, Frequently Asked Questions, Helpful Info), Meet the Team, Contact Us
+
+Footer:
+Normal footer things, + links to the other pages (About Us, Services, Frequently Asked Questions, Helpful Info, Contact Us)
+
+Home Page:
+Text Logo
+Company mission
+Company statistics (been helping thousands of people get insurance for 30 years, and other)
+We are right for you
+Agent Pictures with names (5 pictures)
+
+Meet the Team page:
+larger pictures of each agent with their name and phone number (and maybe a small blurb about the agent) (5 pictures)
+
+Services Page:
+lots of text explaining what services they offer (health insurance, life insurance, dental, and vision), and text explaining what they don't offer (car, house, venue, and other. With helpful numbers that they could call to talk with someone who does offer those services)
+
+
+Frequently Asked Questions page:
+A long list of questions and answers. Easy to read and tell the difference between question and answer.
+
+
+Helpful Info:
+Numbers and a Brief explanations of why to call it.
+(example: I am having this problem with my insurance. Call this number to get it sorted out)
+
+Contact Us:
+Office number
+Agent Names with phone numbers, and emails

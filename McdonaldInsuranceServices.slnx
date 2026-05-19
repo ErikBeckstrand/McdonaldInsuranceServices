@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="McdonaldInsuranceServices/mcdonaldinsuranceservices.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
