@@ -16,7 +16,8 @@
 .agent-profile-card__image-wrapper {
   flex-shrink: 0;
   width: 250px;
-  height: 250px;
+  height: 100%;
+  min-height: 280px;
   overflow: hidden;
   background: linear-gradient(135deg, var(--theme-primary-light) 0%, var(--theme-primary) 100%);
   display: flex;

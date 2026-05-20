@@ -1,25 +1,17 @@
+import AgentImage from '../common/AgentImage';
 import './AgentProfileCard.css';
 
 const AgentProfileCard = ({ agent }) => {
-  const getInitials = (name) => {
-    return name
-      .split(' ')
-      .map(n => n[0])
-      .join('')
-      .toUpperCase();
-  };
-
   return (
     <div className="agent-profile-card">
-      <div className="agent-profile-card__image-wrapper">
-        <div 
-          className="agent-profile-card__placeholder"
-          role="img"
-          aria-label={`${agent.name} - Experienced ${agent.role} at McDonald Insurance Services, Utah insurance specialist`}
-        >
-          {getInitials(agent.name)}
-        </div>
-      </div>
+      <AgentImage
+        name={agent.name}
+        photo={agent.photo}
+        role={agent.role}
+        className="agent-profile-card__image-wrapper"
+        imageClassName="agent-profile-card__image"
+        placeholderClassName="agent-profile-card__placeholder"
+      />
       <div className="agent-profile-card__content">
         <h3 className="agent-profile-card__name">{agent.name}</h3>
         <p className="agent-profile-card__role">{agent.role}</p>
