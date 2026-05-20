@@ -1,0 +1,5 @@
+# Redirect all HTTP traffic to HTTPS
+http://:splat  https://:splat  301!
+
+# SPA fallback - send all routes to index.html
+/*  /index.html  200
