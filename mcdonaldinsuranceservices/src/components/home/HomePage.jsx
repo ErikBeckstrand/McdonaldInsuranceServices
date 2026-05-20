@@ -5,7 +5,6 @@ import Statistics from './Statistics';
 import AgentPreviewList from './AgentPreviewList';
 import { companyInfo } from '../../data/companyInfo';
 import { agents } from '../../data/agents';
-import textLogo from '../../assets/TextLogo.png';
 import './HomePage.css';
 
 function HomePage() {
@@ -13,11 +12,18 @@ function HomePage() {
     <PageContainer>
       <div className="home-page">
         <section className="home-page__hero">
-          <img 
-            src={textLogo} 
-            alt={companyInfo.name} 
-            className="home-page__logo"
-          />
+          <div className="home-page__logo-wrapper">
+            <img 
+              src="/TextLogo.png" 
+              alt={companyInfo.name} 
+              className="home-page__logo"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'block';
+              }}
+            />
+            <h1 className="home-page__logo-fallback">{companyInfo.name}</h1>
+          </div>
           <p className="home-page__slogan">{companyInfo.slogan}</p>
         </section>
 

@@ -10,13 +10,27 @@
   border-radius: var(--radius-lg);
 }
 
+.home-page__logo-wrapper {
+  margin-bottom: var(--spacing-lg);
+}
+
 .home-page__logo {
   max-width: 500px;
   width: 100%;
   height: auto;
-  margin: 0 auto var(--spacing-lg);
+  margin: 0 auto;
   display: block;
-  filter: brightness(0) invert(1);
+  /* Dark shadow behind the logo for depth */
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.home-page__logo-fallback {
+  display: none;
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--theme-text-light);
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .home-page__slogan {
@@ -87,6 +101,10 @@
 
   .home-page__logo {
     max-width: 350px;
+  }
+
+  .home-page__logo-fallback {
+    font-size: var(--font-size-3xl);
   }
 
   .home-page__slogan {

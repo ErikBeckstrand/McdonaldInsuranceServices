@@ -28,6 +28,7 @@
 .navbar__logo-img {
   height: 50px;
   width: auto;
+  border-radius: 10%;
 }
 
 .navbar__mobile-toggle {
