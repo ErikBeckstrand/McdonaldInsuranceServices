@@ -31,7 +31,7 @@ export const agents = [
     name: "Kyla Beckstrand",
     phone: "801-516-8639",
     email: "james@mcdinserv.com",
-    photo: "/src/assets/images/agents/agent4.jpg",
+    photo: "/src/assets/images/agents/KylaBeckstrand.jpg",
     role: "Health and Life Insurance Agent",
     blurb: "Kyla has 10 years of experience helping clients find the perfect health insurance options. She is dedicated to making sure you and your family can access quality healthcare services."
   },
