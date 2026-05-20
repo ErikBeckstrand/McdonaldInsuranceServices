@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import NavBar from './components/layout/NavBar';
 import Footer from './components/layout/Footer';
 import useScrollToTop from './hooks/useScrollToTop';
+import useHttpsRedirect from './hooks/useHttpsRedirect';
 import './App.css';
 
 export const ThemeContext = createContext();
@@ -14,6 +15,7 @@ function App() {
   });
 
   useScrollToTop();
+  useHttpsRedirect(); // Force HTTPS in production
 
   useEffect(() => {
     const theme = isDarkMode ? 'dark' : 'light';
