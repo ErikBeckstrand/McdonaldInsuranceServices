@@ -11,7 +11,7 @@ export const companyInfo = {
     background: "#f9f9f9",
     backgroundAlt: "#ffffff"
   },
-  mission: "At McDonald Insurance Services, we believe in putting our clients first. For over 30 years, we've been dedicated to helping individuals and families find the right insurance solutions that fit their unique needs. Our personalized approach ensures that you receive the attention and care you deserve.",
+  mission: "At McDonald Insurance Services, we believe in putting our clients first. For over 30 years we've been dedicated to helping individuals and families find the right insurance solutions that fit their unique needs. Our personalized approach ensures that you receive the attention and care you deserve.",
   statistics: [
     { value: "30+", label: "Years of Experience" },
     { value: "1000s", label: "Clients Helped" },
@@ -22,7 +22,6 @@ export const companyInfo = {
     "Personalized service tailored to your needs",
     "Experienced agents with extensive knowledge",
     "Competitive rates from top insurance providers",
-    "Fast and efficient claim processing",
     "Long-standing community relationships"
   ],
   seo: {
@@ -34,7 +33,11 @@ export const companyInfo = {
       "insurance agent near me",
       "Utah insurance broker",
       "affordable health insurance",
-      "insurance quotes Utah"
+      "insurance quotes Utah",
+      "medicare plans Utah",
+      "medicare utah",
+      "medicare supplement plans Utah",
+      "medicare advantage Utah",
     ],
     serviceKeywords: {
       health: [
