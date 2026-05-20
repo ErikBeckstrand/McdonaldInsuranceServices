@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import PageContainer from '../common/PageContainer';
 import SectionHeader from '../common/SectionHeader';
 import { companyInfo } from '../../data/companyInfo';
@@ -5,6 +6,9 @@ import { agents } from '../../data/agents';
 import './ContactUs.css';
 
 const ContactUs = () => {
+  useEffect(() => {
+    document.title = 'Contact Us - Get Insurance Quotes | Utah Insurance Agent | McDonald Insurance Services';
+  }, []);
   return (
     <div className="contact-us">
       <PageContainer maxWidth="lg">

@@ -12,7 +12,11 @@ const AgentProfileCard = ({ agent }) => {
   return (
     <div className="agent-profile-card">
       <div className="agent-profile-card__image-wrapper">
-        <div className="agent-profile-card__placeholder">
+        <div 
+          className="agent-profile-card__placeholder"
+          role="img"
+          aria-label={`${agent.name} - Experienced ${agent.role} at McDonald Insurance Services, Utah insurance specialist`}
+        >
           {getInitials(agent.name)}
         </div>
       </div>
@@ -24,12 +28,14 @@ const AgentProfileCard = ({ agent }) => {
           <a 
             href={`tel:${agent.phone}`} 
             className="agent-profile-card__contact-item"
+            aria-label={`Call ${agent.name} for insurance quotes at ${agent.phone}`}
           >
             📞 {agent.phone}
           </a>
           <a 
             href={`mailto:${agent.email}`} 
             className="agent-profile-card__contact-item"
+            aria-label={`Email ${agent.name} for insurance information at ${agent.email}`}
           >
             ✉️ {agent.email}
           </a>

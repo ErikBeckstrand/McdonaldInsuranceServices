@@ -24,5 +24,72 @@ export const companyInfo = {
     "Competitive rates from top insurance providers",
     "Fast and efficient claim processing",
     "Long-standing community relationships"
-  ]
+  ],
+  seo: {
+    primaryKeywords: [
+      "health insurance Utah",
+      "life insurance Utah",
+      "dental insurance Utah",
+      "vision insurance Utah",
+      "insurance agent near me",
+      "Utah insurance broker",
+      "affordable health insurance",
+      "insurance quotes Utah"
+    ],
+    serviceKeywords: {
+      health: [
+        "health insurance",
+        "health insurance near me",
+        "affordable health insurance",
+        "individual health insurance",
+        "family health insurance",
+        "small business health insurance",
+        "health insurance quotes",
+        "Medicare help",
+        "Medicare supplement plans",
+        "Medicare Advantage plans",
+        "Obamacare plans",
+        "marketplace health insurance"
+      ],
+      life: [
+        "life insurance",
+        "life insurance near me",
+        "term life insurance",
+        "whole life insurance",
+        "affordable life insurance",
+        "life insurance quotes",
+        "life insurance for seniors",
+        "life insurance for families"
+      ],
+      dental: [
+        "dental insurance",
+        "dental insurance near me",
+        "affordable dental insurance",
+        "family dental insurance",
+        "individual dental insurance",
+        "dental insurance quotes"
+      ],
+      vision: [
+        "vision insurance",
+        "vision insurance near me",
+        "affordable vision insurance",
+        "family vision insurance",
+        "individual vision insurance",
+        "vision insurance quotes"
+      ]
+    },
+    localKeywords: [
+      "insurance agent in Utah",
+      "best insurance agent in Utah",
+      "Utah insurance services",
+      "insurance broker Utah"
+    ],
+    intentKeywords: [
+      "insurance quotes near me",
+      "compare insurance plans",
+      "best insurance plans for families",
+      "talk to an insurance agent",
+      "get insurance quotes"
+    ]
+  }
 };

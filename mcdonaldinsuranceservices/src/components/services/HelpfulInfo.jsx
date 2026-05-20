@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import PageContainer from '../common/PageContainer';
 import SectionHeader from '../common/SectionHeader';
 import { helpfulInfoData } from '../../data/helpfulInfo';
 import './HelpfulInfo.css';
 
 const HelpfulInfo = () => {
+  useEffect(() => {
+    document.title = 'Insurance Resources & Helpful Information | Utah Insurance Guide | McDonald Insurance';
+  }, []);
+
   return (
     <div className="helpful-info">
       <PageContainer>

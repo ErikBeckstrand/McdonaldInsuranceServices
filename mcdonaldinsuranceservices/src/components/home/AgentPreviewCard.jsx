@@ -12,7 +12,11 @@ const AgentPreviewCard = ({ agent }) => {
   return (
     <div className="agent-preview-card">
       <div className="agent-preview-card__image-wrapper">
-        <div className="agent-preview-card__placeholder">
+        <div 
+          className="agent-preview-card__placeholder"
+          role="img"
+          aria-label={`${agent.name} - Utah Insurance Agent specializing in health, life, dental, and vision insurance`}
+        >
           {getInitials(agent.name)}
         </div>
       </div>
