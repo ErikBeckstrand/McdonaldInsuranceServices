@@ -83,17 +83,28 @@
 }
 
 .home-page__benefit-item {
-  background-color: var(--theme-background-alt);
+  background-color: rgba(255, 255, 255, 0.68);
   padding: var(--spacing-lg);
   margin-bottom: var(--spacing-md);
   border-radius: var(--radius-md);
   border-left: 4px solid var(--theme-primary);
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(6px);
   transition: transform var(--transition-base), box-shadow var(--transition-base);
   font-size: var(--font-size-lg);
   display: flex;
   align-items: center;
   gap: var(--spacing-md);
+}
+
+[data-theme="dark"] .home-page__benefit-item {
+  background-color: rgba(36, 36, 36, 0.72);
+  border-top-color: rgba(255, 255, 255, 0.14);
+  border-right-color: rgba(255, 255, 255, 0.14);
+  border-bottom-color: rgba(255, 255, 255, 0.14);
 }
 
 .home-page__benefit-item:hover {

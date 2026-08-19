@@ -2,7 +2,7 @@ export const faqData = [
   {
     id: 1,
     question: "What types of insurance do you offer?",
-    answer: "We specialize in health insurance, life insurance, dental insurance, and vision insurance. Our experienced agents can help you find the right coverage for your individual or family needs."
+    answer: "We specialize in Marketplace (ACA or Obamacare) plans for individuals and families; Medicare plans; dental and vision plans; and term life insurance plans. We can help you find the right coverage for your individual or family needs."
   },
   {
     id: 2,
@@ -22,12 +22,12 @@ export const faqData = [
   {
     id: 5,
     question: "How long does it take to get coverage?",
-    answer: "The timeline varies depending on the type of insurance. Some plans can be activated within 24-48 hours, while others may take a few weeks. We'll guide you through the process and help expedite your application."
+    answer: "The timeline varies depending on the type of insurance. Some plans can be activated within a day or two, for others you may have to wait until the first of the next month; and some types of insurance may be subject to requirements such as Open Enrollment or Qualifying Events. We’ll guide you through the process and help you complete your application in a timely manner."
   },
   {
     id: 6,
     question: "What if I need to file a claim?",
-    answer: "We're here to support you throughout the entire process. Our team can help you understand your coverage, file claims properly, and follow up with the insurance company to ensure timely processing."
+    answer: "Your first source for claims filing and processing is your health insurance carrier, but we are here to help you in every step of the process. Feel free to contact us any time if you are confused or need advice or guidance."
   },
   {
     id: 7,
@@ -39,14 +39,4 @@ export const faqData = [
     question: "Can I change my insurance plan later?",
     answer: "Yes, you can typically make changes during open enrollment periods or when you experience a qualifying life event (marriage, birth, job change, etc.). We'll help you understand your options and timing."
   },
-  {
-    id: 9,
-    question: "What's the difference between HMO and PPO plans?",
-    answer: "HMO plans typically have lower premiums but require you to use in-network providers and get referrals for specialists. PPO plans offer more flexibility to see out-of-network providers but usually have higher premiums. We can explain which is better for your situation."
-  },
-  {
-    id: 10,
-    question: "How much life insurance coverage do I need?",
-    answer: "The amount of life insurance you need depends on your financial obligations, income, debts, and family situation. A common guideline is 10-12 times your annual income, but we'll help you calculate the right amount for your specific circumstances."
-  }
 ];

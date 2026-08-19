@@ -8,8 +8,12 @@
 }
 
 .contact-us__office-card {
-  background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-primary-dark) 100%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('/WaterFallAndTrees.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--theme-text-light);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
   padding: var(--spacing-3xl);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
@@ -41,6 +45,7 @@
   font-size: var(--font-size-base);
   font-weight: 500;
   opacity: 0.9;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .contact-us__phone-main,
@@ -49,6 +54,7 @@
   font-weight: 700;
   color: var(--theme-text-light);
   text-decoration: none;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.85);
   transition: opacity var(--transition-fast);
 }
 

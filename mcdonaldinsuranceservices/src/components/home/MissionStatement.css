@@ -1,10 +1,11 @@
 .mission-statement {
-  background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-primary-dark) 100%);
+  background: linear-gradient(135deg, rgba(116, 131, 72, 0.82) 0%, rgba(90, 102, 55, 0.82) 100%);
   color: var(--theme-text-light);
   padding: var(--spacing-3xl) var(--spacing-lg);
   border-radius: var(--radius-lg);
   margin-bottom: var(--spacing-3xl);
   box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(4px);
 }
 
 .mission-statement__content {

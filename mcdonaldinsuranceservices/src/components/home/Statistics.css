@@ -11,10 +11,17 @@
 .statistics__item {
   text-align: center;
   padding: var(--spacing-xl);
-  background-color: var(--theme-background-alt);
+  background-color: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(6px);
   transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+[data-theme="dark"] .statistics__item {
+  background-color: rgba(36, 36, 36, 0.72);
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .statistics__item:hover {

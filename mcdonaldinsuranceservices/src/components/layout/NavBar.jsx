@@ -80,7 +80,6 @@ const NavBar = () => {
               >
                 Helpful Info
               </Link> */}
-              </>
             </div>
           </div>
 

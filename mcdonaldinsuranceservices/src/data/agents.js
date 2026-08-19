@@ -4,7 +4,7 @@ export const agents = [
     name: "James McDonald",
     phone: "801-860-8020",
     email: "jmcdonald@mcdinserv.com",
-    photo: null, // No photo yet - will show initials
+    photo: "/agents/JamesMcDonald.jpg", // No photo yet - will show initials
     role: "",
     blurb: "James founded McDonald Insurance Services over 25 years ago and has been dedicated to helping Utah families since. James is an expert in navigating Medicare, individual Marketplace health insurance plans, and a range of other types of insurance."
   },
@@ -22,7 +22,7 @@ export const agents = [
     name: "Rylee McDonald",
     phone: "801-259-7365",
     email: "rylee@mcdinserv.com",
-    photo: null, // No photo yet - will show initials
+    photo: "/agents/RyleeMcDonald.jpg", // No photo yet - will show initials
     role: "",
     blurb: "Rylee brings 15 years of expertise in health insurance, helping clients navigate complex policy options. He's passionate about ensuring families have comprehensive coverage that fits their budget."
   },
@@ -40,7 +40,7 @@ export const agents = [
     name: "Brysen McDonald",
     phone: "801-960-6723",
     email: "mcdinserv@gmail.com",
-    photo: null, // No photo yet - will show initials
+    photo: "/agents/BrysenMcDonald.jpg", // No photo yet - will show initials
     role: "",
     blurb: "Brysen specializes in individual and family health insurance plans and Medicare plans. With 9 years of experience, he helps clients secure their family's financial future with tailored health insurance solutions."
   },
@@ -49,7 +49,7 @@ export const agents = [
     name: "Charles Christiansen",
     phone: "801-755-9623",
     email: "jmcdonald@mcdsinerv.com",
-    photo: null, // No photo yet - will show initials
+    photo: "/agents/CharlesChristiansen.jpg", // No photo yet - will show initials
     role: "",
     blurb: "Charles has 3 years of experience across all insurance types, specializing especially in individual and family health insurance and Medicare. He takes pride in educating clients and helping them make informed decisions about their insurance coverage."
   },
@@ -58,7 +58,7 @@ export const agents = [
     name: "Carrae McDonald",
     phone: "801-576-6412",
     email: "jmcdonald@mcdinserv.com",
-    photo: null, // No photo yet - will show initials
+    photo: "/agents/CarraeMcDonald.jpg", // No photo yet - will show initials
     role: "",
     blurb: "Carrae is the most recent addition to our agency and is excited to take part in helping our clients find the right insurance for their needs! She is licensed in health, life, dental, and medicare insurance."
   }
