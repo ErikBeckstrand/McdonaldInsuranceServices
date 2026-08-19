@@ -114,13 +114,13 @@ Value: erikbeckstrand.github.io
 
 ### Check GitHub Pages Status
 1. Go to Settings > Pages
-2. You should see: "Your site is published at https://mcdinserv.com"
+2. You should see: "Your site is published at https://mcdonaldinsuranceservices.com"
 3. Initial deployment takes 1-10 minutes
 
 ### Check DNS Propagation
 ```bash
 # Check if DNS is pointing correctly
-nslookup mcdinserv.com
+nslookup mcdonaldinsuranceservices.com
 
 # Should show GitHub Pages IPs:
 # 185.199.108.153, 185.199.109.153, etc.
@@ -135,7 +135,7 @@ DNS propagation can take 1-48 hours depending on your provider.
 ### package.json
 ```json
 {
-  "homepage": "https://mcdinserv.com",
+	"homepage": "https://mcdonaldinsuranceservices.com",
   "scripts": {
 	"predeploy": "npm run build",
 	"deploy": "gh-pages -d dist"
@@ -158,7 +158,7 @@ DNS propagation can take 1-48 hours depending on your provider.
 
 ### public/CNAME
 ```
-mcdinserv.com
+mcdonaldinsuranceservices.com
 ```
 - Required for custom domain on GitHub Pages
 - Automatically copied to `dist` folder during build
@@ -388,10 +388,10 @@ If you encounter issues:
 - [ ] Install gh-pages: `npm install --save-dev gh-pages`
 - [ ] Deploy: `npm run deploy`
 - [ ] Configure GitHub Settings > Pages > Branch: `gh-pages`
-- [ ] Add custom domain in GitHub: `mcdinserv.com`
+- [ ] Add custom domain in GitHub: `mcdonaldinsuranceservices.com`
 - [ ] Configure DNS A records at your domain provider
 - [ ] Wait for DNS propagation (1-48 hours)
 - [ ] Enable HTTPS in GitHub Settings
-- [ ] Test site at https://mcdinserv.com
+- [ ] Test site at https://mcdonaldinsuranceservices.com
 
 **After these steps, your site will be live!** 🎉

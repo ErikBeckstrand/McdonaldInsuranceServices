@@ -1,13 +1,13 @@
 # ✅ GitHub Pages Configuration Complete!
 
-Your site is now ready to deploy to GitHub Pages with your custom domain: **mcdinserv.com**
+Your site is now ready to deploy to GitHub Pages with your custom domain: **mcdonaldinsuranceservices.com**
 
 ---
 
 ## What Was Configured
 
 ### 1. Package.json Updates
-- ✅ Added `homepage: "https://mcdinserv.com"`
+- ✅ Added `homepage: "https://mcdonaldinsuranceservices.com"`
 - ✅ Added `predeploy` script (auto-builds before deploy)
 - ✅ Added `deploy` script (deploys to gh-pages branch)
 - ✅ Added `gh-pages` to devDependencies
@@ -104,11 +104,11 @@ You should see `remotes/origin/gh-pages`
 ### Check GitHub Pages status:
 Go to: https://github.com/ErikBeckstrand/McdonaldInsuranceServices/settings/pages
 
-Should show: "Your site is published at https://mcdinserv.com"
+Should show: "Your site is published at https://mcdonaldinsuranceservices.com"
 
 ### Check DNS:
 ```bash
-nslookup mcdinserv.com
+nslookup mcdonaldinsuranceservices.com
 ```
 Should show GitHub Pages IPs (185.199.108.153, etc.)
 
@@ -195,7 +195,7 @@ Should show GitHub Pages IPs (185.199.108.153, etc.)
 3. **Configure**: GitHub Settings > Pages
 4. **DNS**: Add A records at domain registrar
 5. **Wait**: 1-48 hours for DNS propagation
-6. **Visit**: https://mcdinserv.com 🎉
+6. **Visit**: https://mcdonaldinsuranceservices.com 🎉
 
 ---
 

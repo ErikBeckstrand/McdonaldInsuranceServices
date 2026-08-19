@@ -44,7 +44,7 @@ const Breadcrumbs = () => {
         "@type": "ListItem",
         "position": index + 1,
         "name": item.name,
-        "item": `https://mcdinserv.com${item.path}`
+        "item": `https://mcdonaldinsuranceservices.com${item.path}`
       }))
     };
 
