@@ -11,17 +11,17 @@ export const companyInfo = {
     background: "#f9f9f9",
     backgroundAlt: "#ffffff"
   },
-  mission: "At McDonald Insurance Services, we believe in putting our clients first. For over 30 years we've been dedicated to helping individuals and families find the right insurance solutions that fit their unique needs. Our personalized approach ensures that you receive the attention and care you deserve.",
+  mission: "At McDonald Insurance Services, we believe in putting our clients first. For over 25 years we've been dedicated to helping individuals and families find the right insurance solutions that fit their unique needs. Our personalized approach ensures that you receive the attention and care you deserve.",
   statistics: [
-    { value: "30+", label: "Years of Experience" },
-    { value: "1000s", label: "Clients Helped" },
-    { value: "5", label: "Expert Agents" },
-    { value: "24/7", label: "Support Available" }
+    { value: "25+", label: "Years of Experience" },
+    { value: "Thousands", label: "Clients Helped" },
+    { value: "7", label: "Expert Agents" },
+    { value: "100%", label: "Client Focused" }
   ],
   whyChooseUs: [
     "Personalized service tailored to your needs",
     "Experienced agents with extensive knowledge",
-    "Competitive rates from top insurance providers",
+    "Competitive rates from top insurance carriers",
     "Long-standing community relationships"
   ],
   seo: {

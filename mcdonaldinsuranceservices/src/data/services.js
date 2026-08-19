@@ -2,20 +2,24 @@ export const servicesData = {
   intro: "At McDonald Insurance Services, we're committed to helping you find the right insurance coverage for your needs. As a trusted Utah insurance agent, we provide expert guidance and personalized service. Below is information about what we offer and resources for other insurance needs.",
 
   servicesOffered: {
-    title: "Insurance Services We Offer",
-    description: "Our experienced insurance agents in Utah specialize in the following types of insurance:",
+      title: "At McDonald Insurance Services, we specialize in individual and family Marketplace plans and Medicare. We can also help you with a variety of other insurance needs.",
+    description: "",
     services: [
       {
         name: "Health Insurance",
-        description: "Comprehensive health insurance options for individuals, families, and small businesses in Utah. We offer affordable health insurance plans including marketplace health insurance, Obamacare plans, Medicare Advantage, Medicare supplement plans, and private coverage. Whether you need individual health insurance or family health insurance, our agents help you compare health insurance quotes, understand deductibles and copays, and find coverage that fits your budget. Get free health insurance quotes today."
+        description: "The Health Insurance Marketplace (otherwise known as ACA or Obamacare) is the primary venue for individuals and families to find health insurance if they are not offered coverage through a job, Medicaid, or another source. Our skilled agents will walk you through the process of obtaining Marketplace coverage, helping you compare quotes from all available carriers to find the plan that best fits your budget, healthcare needs, and providers, and ensuring that you understand your coverage."
+      },
+      {
+        name: "Medicare",
+        description: "Our expert agents will help you understand every aspect of Medicare, including applying, choosing the right coverage for your needs, and using your plan."
       },
       {
         name: "Life Insurance",
-        description: "Protect your family's financial future with term life insurance, whole life insurance, and universal life insurance policies. Our life insurance agents help seniors and families find affordable life insurance with competitive rates. We'll help you determine the right coverage amount and policy type based on your unique situation. Compare life insurance quotes from top providers and get expert advice on term vs whole life insurance options."
+        description: "Life insurance is an important tool for protecting your family’s financial future. We can help you find affordable quotes from a variety of nationally acclaimed life insurance carriers."
       },
       {
         name: "Dental Insurance",
-        description: "Affordable dental insurance coverage for routine care, major procedures, and orthodontics. We offer individual dental insurance and family dental insurance plans in Utah with different coverage levels to ensure you can maintain excellent oral health. Get dental insurance quotes and compare the best dental insurance plans from leading providers."
+        description: "Affordable dental insurance coverage for routine care, major procedures, and orthodontics. We offer individual dental insurance and family dental insurance plans in Utah with different coverage levels to ensure you can maintain excellent oral health. Get dental insurance quotes and compare the best dental insurance plans from leading carriers."
       },
       {
         name: "Vision Insurance",

@@ -73,13 +73,14 @@ const NavBar = () => {
               >
                 Frequently Asked Questions
               </Link>
-              <Link 
+              {/* <Link 
                 to="/helpful-info" 
                 className="navbar__dropdown-item"
                 onClick={closeMenus}
               >
                 Helpful Info
-              </Link>
+              </Link> */}
+              </>
             </div>
           </div>
 

@@ -2,6 +2,20 @@
   min-height: 100vh;
 }
 
+.page-container--home {
+  background-color: var(--theme-background);
+  background-image: url('/icon-512-WhiteBackground.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: clamp(240px, 65vw, 720px) auto;
+  background-attachment: fixed;
+}
+
+[data-theme="dark"] .page-container--home {
+  background-color: var(--theme-background);
+  background-image: url('/icon-512-BlackBackground.png');
+}
+
 /* SEO: Hidden content for search engines only */
 .visually-hidden {
   position: absolute;
@@ -19,7 +33,10 @@
   text-align: center;
   margin: calc(var(--spacing-3xl) * -1) calc(var(--spacing-lg) * -1) var(--spacing-3xl);
   padding: var(--spacing-3xl) var(--spacing-lg);
-  background: linear-gradient(135deg, var(--theme-primary-light) 0%, var(--theme-primary) 100%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url('/Mountain.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: var(--radius-lg);
 }
 
@@ -102,11 +119,24 @@
   color: var(--theme-text-dark);
 }
 
-.home-page__team-preview {
+.home-page__mountains {
   margin-bottom: var(--spacing-3xl);
 }
 
+.home-page__mountains-image {
+  width: 100%;
+  max-height: 460px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
 @media (max-width: 768px) {
+  .page-container--home {
+    background-attachment: scroll;
+  }
+
   .home-page__hero {
     padding: var(--spacing-2xl) var(--spacing-lg);
     margin: calc(var(--spacing-2xl) * -1) calc(var(--spacing-md) * -1) var(--spacing-2xl);

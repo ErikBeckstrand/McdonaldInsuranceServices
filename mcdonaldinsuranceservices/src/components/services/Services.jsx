@@ -11,10 +11,10 @@ const Services = () => {
   return (
     <div className="services">
       <PageContainer>
-        <SectionHeader 
+        {/*<SectionHeader 
           title="Our Insurance Services in Utah"
           subtitle={servicesData.intro}
-        />
+        />*/}
 
         <section className="services__section" aria-labelledby="services-offered-heading">
           <h2 id="services-offered-heading" className="services__section-title">{servicesData.servicesOffered.title}</h2>

@@ -3,9 +3,7 @@ import PageContainer from '../common/PageContainer';
 import SectionHeader from '../common/SectionHeader';
 import MissionStatement from './MissionStatement';
 import Statistics from './Statistics';
-import AgentPreviewList from './AgentPreviewList';
 import { companyInfo } from '../../data/companyInfo';
-import { agents } from '../../data/agents';
 import './HomePage.css';
 
 function HomePage() {
@@ -13,7 +11,7 @@ function HomePage() {
     document.title = 'McDonald Insurance Services - Utah Health, Life, Dental & Vision Insurance | Affordable Insurance Quotes';
   }, []);
   return (
-    <PageContainer>
+    <PageContainer className="page-container--home">
       <div className="home-page">
         {/* Hero Section with SEO-optimized heading */}
         <section className="home-page__hero" role="banner" aria-label="Welcome to McDonald Insurance Services">
@@ -69,12 +67,12 @@ function HomePage() {
           </ul>
         </section>
 
-        <section className="home-page__team-preview" aria-labelledby="team-preview-heading">
-          <SectionHeader 
-            title="Meet Our Team" 
-            subtitle="Our experienced agents are here to help you find the perfect insurance coverage."
+        <section className="home-page__mountains" aria-label="Snow-covered Utah mountains">
+          <img
+            src="/SnowMountains.jpg"
+            alt="Snow-covered mountains in Utah"
+            className="home-page__mountains-image"
           />
-          <AgentPreviewList agents={agents} />
         </section>
       </div>
     </PageContainer>
