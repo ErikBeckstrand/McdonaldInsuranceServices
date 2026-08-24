@@ -13,7 +13,7 @@ export const agents = [
     name: "Jon Stanard",
     phone: "435-229-8715",
     email: "jon.mcd.insurance@gmail.com",
-    photo: null, // No photo yet - will show initials
+    photo: "/agents/JonStanard.jpg", // No photo yet - will show initials
     role: "",
      blurb: "Jon has been working in the health insurance industry for close to 10 years, focusing especially on serving the Southern Utah area. His professional advice can help you find the health insurance options you and your family needs."
   },
